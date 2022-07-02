@@ -13,9 +13,11 @@
 ## View Measurement List:
 ![Page 3](https://user-images.githubusercontent.com/86628671/177011571-79d9e0f2-6d42-42cd-bd40-2585886a3c2b.png)
 
+## Measurement Details Page:
+![289658656_551618819778035_7250305320756384642_n](https://user-images.githubusercontent.com/66021268/177012116-613cf36f-ed3e-441c-a230-895d2a6a16d1.png)
+
 ## Measurement Insert page:
 ![288728644_1760226237644561_4801613875380273073_n](https://user-images.githubusercontent.com/66021268/177012075-239fbc43-dc74-430d-be1a-4638204bf120.png)
-
 
 ## Measurement Update Page:
 ![Page 5](https://user-images.githubusercontent.com/86628671/177011604-7deb4dc1-63da-4767-9065-a8dbbf40b580.png)
