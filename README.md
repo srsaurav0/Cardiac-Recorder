@@ -5,3 +5,7 @@
 
 ## View Measurement List:
 ![Page 3](https://user-images.githubusercontent.com/86628671/177011571-79d9e0f2-6d42-42cd-bd40-2585886a3c2b.png)
+
+
+## Measurement Update Page:
+![Page 5](https://user-images.githubusercontent.com/86628671/177011604-7deb4dc1-63da-4767-9065-a8dbbf40b580.png)
