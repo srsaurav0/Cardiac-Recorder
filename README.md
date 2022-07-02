@@ -1,5 +1,10 @@
 # Cardiac-Recorder
 ## Cardiac- Recorder : Android Application
+The Cardiac Recorder App provides it's users the opportunity to record their blood pressure and heart rate. Users can 
+keep track of the condition of their heart and they can share this information with their doctor. It is also helpful 
+for the cardiologist to understand patient's heart situation if they observe the records on this app.
+Users can view the measurements. They can also insert, update and delete any measurement.   
+
 
 ## UML Diagram:
 ![UML Diagram](https://user-images.githubusercontent.com/86628671/177011652-0f18d34c-5d91-4349-b429-92eb067ba3ec.png)
