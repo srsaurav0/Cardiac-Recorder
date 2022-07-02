@@ -10,7 +10,7 @@
 ## Home Page
 ![285050080_596425885237758_327073950945157238_n](https://user-images.githubusercontent.com/66021268/177011995-f0651e4a-05bf-4c32-945e-6dab18e25cfd.png)
 
-## View Measurement List:
+## Measurement List View and Delete Page:
 ![Page 3](https://user-images.githubusercontent.com/86628671/177011571-79d9e0f2-6d42-42cd-bd40-2585886a3c2b.png)
 
 ## Measurement Details Page:
