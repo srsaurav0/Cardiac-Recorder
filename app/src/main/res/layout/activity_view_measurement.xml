@@ -1,9 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ViewMeasurementActivity">
+    tools:context=".ViewMeasurementActivity"
+    android:background="@drawable/common_bg"
+    >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/measureViewTextId"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/rounded_corner"
+        android:fontFamily="@font/acme_regular"
+        android:gravity="center"
+        android:text="Measurements"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <ListView
+        android:id="@+id/measureListViewId"
+        android:layout_below="@+id/measureViewTextId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:elevation="@dimen/cardview_default_elevation"
+        android:background="@drawable/rounded_corner_whitebg" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/floatAddBtnId"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="25dp"
+        app:fabSize="normal"
+        android:backgroundTint="@color/purple_200"
+        app:elevation="6dp"
+        android:src="@drawable/add_float_png"
+        />
+
+</RelativeLayout>
