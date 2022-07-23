@@ -19,6 +19,7 @@
         android:layout_marginBottom="50dp"
         android:fontFamily="@font/acme_regular"
         android:text="View  Measurements"
+        android:textColor="@color/white"
         android:backgroundTint="@color/btn_dark_red"
         android:textSize="24sp" />
 
@@ -29,6 +30,7 @@
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
         android:fontFamily="@font/acme_regular"
+        android:textColor="@color/white"
         android:text="Add  Measurements"
         android:backgroundTint="@color/btn_dark_red"
         android:textSize="24sp" />
