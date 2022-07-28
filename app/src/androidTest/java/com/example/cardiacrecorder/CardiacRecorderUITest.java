@@ -66,4 +66,46 @@ public class CardiacRecorderUITest {
         Espresso.onView(withId(R.id.viewMmButton)).perform(click());
         SystemClock.sleep(4000);
     }
+
+    @Test
+    public void UpdateMeasurementTest()
+    {
+        SystemClock.sleep(4000);
+        Espresso.onView(withId(R.id.viewMmButton)).perform(click());
+        SystemClock.sleep(4000);
+        onData(anything()).inAdapterView(withId(R.id.measureListViewId)).atPosition(0).
+                perform(click());
+        SystemClock.sleep(2000);
+        Espresso.onView(withId(R.id.updateActivityButtonId)).perform(ViewActions.scrollTo());
+        Espresso.onView(withId(R.id.updateActivityButtonId)).perform(click());
+        Espresso.onView(withId(R.id.editTextSysUpdateId)).perform(ViewActions.scrollTo());
+        Espresso.onView(withId(R.id.editTextSysUpdateId)).perform(ViewActions.clearText());
+        Espresso.onView(withId(R.id.editTextSysUpdateId)).perform(ViewActions.typeText("106"));
+        Espresso.onView(withId(R.id.editTextCommentUpdateId)).perform(ViewActions.scrollTo());
+        Espresso.onView(withId(R.id.editTextCommentUpdateId)).perform(ViewActions.clearText());
+        Espresso.onView(withId(R.id.editTextCommentUpdateId)).perform(ViewActions.typeText("Resting"));
+        Espresso.onView(withId(R.id.updateButtonId)).perform(ViewActions.scrollTo());
+        Espresso.onView(withId(R.id.updateButtonId)).perform(click());
+        SystemClock.sleep(1000);
+        onData(anything()).inAdapterView(withId(R.id.measureListViewId)).atPosition(0).
+                perform(click());
+        Espresso.onView(withId(R.id.cmntDetailsTextId)).perform(ViewActions.scrollTo());
+        SystemClock.sleep(1000);
+        Espresso.pressBack();
+    }
+
+    @Test
+    public void DeleteMeasurementTest()
+    {
+        SystemClock.sleep(4000);
+        Espresso.onView(withId(R.id.viewMmButton)).perform(click());
+        SystemClock.sleep(4000);
+        onData(anything()).inAdapterView(withId(R.id.measureListViewId)).atPosition(0).
+                perform(longClick());
+        Espresso.onView(withText("YES"))
+                .inRoot(isDialog())
+                .check(matches(isDisplayed()))
+                .perform(click());
+        SystemClock.sleep(2000);
+    }
 }
