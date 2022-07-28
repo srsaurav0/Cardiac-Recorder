@@ -12,6 +12,9 @@ import java.util.Objects;
 import java.util.Timer;
 import java.util.TimerTask;
 
+/**
+ * This activity is for splash screen
+ */
 public class SplashActivity extends AppCompatActivity {
 
     ProgressBar progressBar;

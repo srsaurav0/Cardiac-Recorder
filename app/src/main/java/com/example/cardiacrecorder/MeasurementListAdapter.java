@@ -13,6 +13,9 @@ import androidx.core.content.ContextCompat;
 
 import java.util.List;
 
+/**
+ * This is an adapter for custom list view
+ */
 public class MeasurementListAdapter extends ArrayAdapter<MeasurementModelClass> {
     private Activity context;
     private List<MeasurementModelClass> measurementList;

@@ -13,6 +13,9 @@ import android.widget.Toast;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+/**
+ * This activity is for updating measurement
+ */
 public class UpdateMeasurementActivity extends AppCompatActivity {
 
     EditText dateUpdateText, timeUpdateText, sysUpdateText, diasUpdateText, hrtUpdateText, cmntUpdateText;

@@ -18,6 +18,7 @@ import java.util.Objects;
 
 /**
  * AddMeasurement Activity
+ * This activity is for adding a measurement to firebase database
  */
 public class AddMeasurementActivity extends AppCompatActivity {
 

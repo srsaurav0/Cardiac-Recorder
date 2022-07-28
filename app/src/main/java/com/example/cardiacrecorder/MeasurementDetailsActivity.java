@@ -11,6 +11,9 @@ import android.widget.TextView;
 
 import org.w3c.dom.Text;
 
+/**
+ * This activity is for showing detailed measurements
+ */
 public class MeasurementDetailsActivity extends AppCompatActivity {
 
     TextView dateUpdateText, timeUpdateText, sysUpdateText, diasUpdateText, hrtUpdateText, cmntUpdateText;

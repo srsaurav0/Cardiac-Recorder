@@ -1,5 +1,8 @@
 package com.example.cardiacrecorder;
 
+/**
+ * This is a model class for uploading data into database
+ */
 public class MeasurementModelClass {
     String measureId,date,time,systolic,diastolic,heartRate,comment;
 
