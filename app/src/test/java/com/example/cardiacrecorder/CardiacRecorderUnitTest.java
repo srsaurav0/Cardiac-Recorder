@@ -63,4 +63,35 @@ public class CardiacRecorderUnitTest {
         assertEquals(0, measure.compareTo(mList.getMeasure().get(1)));
         assertEquals(0, mockMeasure().compareTo(mList.getMeasure().get(0)));
     }
+
+    /**
+     * Testing delete function
+     */
+    @Test
+    public void testDelete()
+    {
+        MeasurementListUnit mList=mockList();
+        Measurement measure = new Measurement("23/07/2022","8:45pm",140,90,100,"Walking");
+        mList.add(measure);
+        assertTrue(mList.getMeasure().contains(measure));
+        mList.remove(measure);
+        assertFalse(mList.getMeasure().contains(measure));
+
+    }
+
+    /**
+     * Testing update functionality
+     */
+    @Test
+    public void testUpdate()
+    {
+        MeasurementListUnit mList=mockList();
+        Measurement measure = new Measurement("23/07/2022","8:45pm",140,90,100,"Walking");
+        mList.add(measure);
+        assertTrue(mList.getMeasure().contains(measure));
+        Measurement another=new Measurement("28/07/2022","1:45am",120,80,80,"Resting");
+        mList.edit(1,another);
+        assertFalse(mList.getMeasure().contains(measure));
+        assertTrue(mList.getMeasure().contains(another));
+    }
 }
