@@ -23,13 +23,23 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+/**
+ * UI Test File Created
+ */
+
 @RunWith(AndroidJUnit4.class)
 @LargeTest
 public class CardiacRecorderUITest {
+    /**
+     * Rule added
+     */
     @Rule
     public ActivityScenarioRule<SplashActivity> activityScenarioRule =
             new ActivityScenarioRule<>(SplashActivity.class);
 
+    /**
+     * UI Test File Created
+     */
     @Test
     public void checkAppName()
     {
