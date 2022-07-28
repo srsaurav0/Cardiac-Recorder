@@ -16,6 +16,9 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.Objects;
 
+/**
+ * AddMeasurement Activity
+ */
 public class AddMeasurementActivity extends AppCompatActivity {
 
     EditText dateText,timeText,sysText,diasText,hrtText,cmntText;
