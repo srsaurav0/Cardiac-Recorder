@@ -12,6 +12,10 @@ import android.widget.Button;
 
 import java.util.Objects;
 
+/**
+ * MainActivity
+ * Contains view measurement and add measurement button
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override

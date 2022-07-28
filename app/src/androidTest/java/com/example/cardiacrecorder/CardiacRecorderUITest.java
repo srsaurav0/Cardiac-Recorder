@@ -23,19 +23,32 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+/**
+ * UI Test File Created
+ */
+
 @RunWith(AndroidJUnit4.class)
 @LargeTest
 public class CardiacRecorderUITest {
+    /**
+     * Rule added
+     */
     @Rule
     public ActivityScenarioRule<SplashActivity> activityScenarioRule =
             new ActivityScenarioRule<>(SplashActivity.class);
 
+    /**
+     * Check the Application Name
+     */
     @Test
     public void checkAppName()
     {
         onView(withText("Cardiac Recorder")).check(matches(isDisplayed()));
     }
 
+    /**
+     *Checking View Measurement List
+     */
     @Test
     public void checkPrevList()
     {
@@ -44,6 +57,9 @@ public class CardiacRecorderUITest {
         SystemClock.sleep(4000);
     }
 
+    /**
+     * Add Measurement Functionality check
+     */
     @Test
     public void AddMeasurementTest() {
         SystemClock.sleep(4000);
@@ -67,6 +83,9 @@ public class CardiacRecorderUITest {
         SystemClock.sleep(4000);
     }
 
+    /**
+     * Checking Update Measurement Functionality
+     */
     @Test
     public void UpdateMeasurementTest()
     {
@@ -94,6 +113,9 @@ public class CardiacRecorderUITest {
         Espresso.pressBack();
     }
 
+    /**
+     * Testing the deletion of a measurement
+     */
     @Test
     public void DeleteMeasurementTest()
     {
