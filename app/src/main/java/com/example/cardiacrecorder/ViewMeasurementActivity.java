@@ -31,6 +31,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+/**
+ * This activity is for viewing all measurements in a list
+ */
 public class ViewMeasurementActivity extends AppCompatActivity {
     DatabaseReference mylRef;
     ListView listViewMeasurement;

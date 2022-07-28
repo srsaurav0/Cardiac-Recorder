@@ -8,6 +8,9 @@ import java.util.Comparator;
 import java.util.Date;
 import java.util.Objects;
 
+/**
+ * This class is for unit testing
+ */
 public class Measurement implements Serializable, Comparable<Measurement>
 {
     private String date;
