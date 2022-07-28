@@ -28,5 +28,5 @@ Users can view the measurements. They can also insert, update and delete any mea
 ## Measurement Update Page:
 ![Page 5](https://user-images.githubusercontent.com/86628671/177011604-7deb4dc1-63da-4767-9065-a8dbbf40b580.png)
 
-##javadoc link for the project:
+## javadoc link for the project:
 https://srsaurav0.github.io/cardiac_recorder/
